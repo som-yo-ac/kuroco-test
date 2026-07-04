@@ -3,7 +3,7 @@
 // =========================================
 
 // お問い合わせAPI
-const API_URL = "https://achoes.g.kuroco.app/rcms-api/1/inquiry/3";
+const API_URL = "https://achoes.g.kuroco.app/rcms-api/1/inquiry/3?id=3";
 
 // フォーム取得
 const form = document.getElementById("contactForm");
