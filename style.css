@@ -1,0 +1,94 @@
+/* ------------------------------
+   全体
+------------------------------ */
+
+body {
+    font-family: sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+/* ------------------------------
+   フォーム全体
+------------------------------ */
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* ------------------------------
+   入力欄
+------------------------------ */
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.required {
+    color: red;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* ------------------------------
+   ボタン
+------------------------------ */
+
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #005ea6;
+}
+
+/* ------------------------------
+   メッセージ表示
+------------------------------ */
+
+#resultMessage {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
