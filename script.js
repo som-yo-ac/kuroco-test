@@ -38,7 +38,7 @@ form.addEventListener("submit", async (event) => {
             body: JSON.stringify({
                 "name": name,
                 "email": email,
-                "message": message
+                "body": message
             })
         });
 
@@ -64,6 +64,7 @@ form.addEventListener("submit", async (event) => {
         // バリデーションエラー
         // -------------------------
         if (data.errors) {
+            console.error(data.errors);
 
             resultMessage.className = "error";
 
